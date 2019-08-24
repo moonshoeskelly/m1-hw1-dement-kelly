@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display:block;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background: lemonchiffon;
+}
+
+h1 {
+	text-align: center;
+	color: violet;
+	padding: 20px;
+	font-size: 2rem;
+	background: lemonchiffon;
+}
+
+nav {
+	text-align: right;
+	padding-bottom: 20px;
+	padding-right: 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 1rem;
+	color: salmon;
+	padding-left: 30px;
+}
+
+main {
+	margin: 0 auto;
+	width: 600px;
+  height: 250px;
+	background: rgba(238,130,238,.5);
+	color: purple;
+}
+
+h2 {
+	padding: 15px;
+	font-size: 1.5rem;
+}
+
+p {
+	padding: 15px;
+	font-size: 1.125rem;
+}
+
+footer {
+	text-align: center;
+	color: violet;
+	padding: 10px;
+	font-size: .7rem;
+	background: lemonchiffon;
+}
